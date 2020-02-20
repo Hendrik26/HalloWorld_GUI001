@@ -40,7 +40,7 @@ public class Main extends Application {
         StackPane root = new StackPane();
         root.getChildren().add(button01);
         // -----------------------------------------------------------------
-        primaryStage.setTitle("Hello World");
+        primaryStage.setTitle("HalloWorld_GUI001");
         primaryStage.setScene(new Scene(root, 300, 275));
         primaryStage.show();
     }
