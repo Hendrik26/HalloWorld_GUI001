@@ -15,6 +15,16 @@ import javafx.stage.Stage;
 
 public class Main extends Application {
 
+    private void writeHWMethod(ActionEvent actionEvent){
+        System.out.println("Hallo World Method!");
+    }
+
+    private class hWWriter implements EventHandler<ActionEvent>{
+        public void handle(ActionEvent actionEvent) {
+            System.out.println("Hallo World Named Inner Class!");
+        }
+    }
+
     @Override
     public void start(Stage primaryStage) throws Exception{
         Button button01 = new Button();
